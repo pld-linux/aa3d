@@ -1,4 +1,4 @@
-# $Revision: 1.3 $Date: 2002-01-18 02:12:17 $
+# $Revision: 1.4 $Date: 2002-02-22 23:28:39 $
 Summary:	ASCII-Art stereogram generator
 Summary(pl):	Generator stereogramów w postaci ASCII Art
 Name:		aa3d
@@ -6,8 +6,6 @@ Version:	1.0
 Release:	1
 License:	GPL
 Group:		Applications/Graphics
-Group(de):	Applikationen/Grafik
-Group(pl):	Aplikacje/Grafika
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/aa-project/%{name}-%{version}.tar.gz
 URL:		http://aa-project.sourceforge.net/aa3d/
 BuildRequires:	aalib-devel
