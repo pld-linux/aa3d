@@ -1,4 +1,4 @@
-# $Revision: 1.1 $Date: 2001-06-24 22:46:18 $
+# $Revision: 1.2 $Date: 2001-06-28 14:53:33 $
 Summary:	ASCII-Art stereogram generator
 Summary(pl):	Generator stereogramów w postaci ASCII Art
 Name:		aa3d
@@ -12,7 +12,7 @@ Source0:	ftp://download.sourceforge.net/pub/sourceforge/aa-project/%{name}-%{ver
 URL:		http://aa-project.sourceforge.net/aa3d/
 BuildRequires:	aalib-devel
 BuildRequires:	gpm-devel
-BuildRequires:	ncurses-devel >= 5.0
+BuildRequires:	ncurses-devel >= 5.2
 BuildRequires:	XFree86-libs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
