@@ -1,4 +1,4 @@
-# $Revision: 1.4 $Date: 2002-02-22 23:28:39 $
+# $Revision: 1.5 $Date: 2002-04-25 15:40:42 $
 Summary:	ASCII-Art stereogram generator
 Summary(pl):	Generator stereogramów w postaci ASCII Art
 Name:		aa3d
