@@ -1,4 +1,4 @@
-# $Revision: 1.5 $Date: 2002-04-25 15:40:42 $
+# $Revision: 1.6 $Date: 2002-06-01 16:45:22 $
 Summary:	ASCII-Art stereogram generator
 Summary(pl):	Generator stereogramów w postaci ASCII Art
 Name:		aa3d
@@ -32,12 +32,10 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 
 install aa3d $RPM_BUILD_ROOT%{_bindir}
 
-gzip -9nf README logo pyramid
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README logo pyramid 
 %attr(755,root,root) %{_bindir}/*
