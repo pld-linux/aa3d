@@ -24,7 +24,9 @@ Generator stereogramów w ASCII Art.
 %setup -q
 
 %build
-%{__make} CFLAGS="%{rpmcflags}" LDFLAGS="%{rpmldflags}"
+%{__make} \
+	CFLAGS="%{rpmcflags}" \
+	LDFLAGS="%{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
