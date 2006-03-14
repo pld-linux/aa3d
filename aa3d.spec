@@ -8,10 +8,6 @@ Group:		Applications/Graphics
 Source0:	http://dl.sourceforge.net/aa-project/%{name}-%{version}.tar.gz
 # Source0-md5:	fa0d1547b68b75d83ca3fe37d625584e
 URL:		http://aa-project.sourceforge.net/aa3d/
-BuildRequires:	XFree86-devel
-BuildRequires:	aalib-devel
-BuildRequires:	gpm-devel
-BuildRequires:	ncurses-devel >= 5.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
