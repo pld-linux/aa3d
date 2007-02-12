@@ -1,5 +1,5 @@
 Summary:	ASCII-Art stereogram generator
-Summary(pl):	Generator stereogramów w postaci ASCII Art
+Summary(pl.UTF-8):   Generator stereogramÃ³w w postaci ASCII Art
 Name:		aa3d
 Version:	1.0
 Release:	3
@@ -13,8 +13,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 ASCII-Art stereogram generator.
 
-%description -l pl
-Generator stereogramów w ASCII Art.
+%description -l pl.UTF-8
+Generator stereogramÃ³w w ASCII Art.
 
 %prep
 %setup -q
